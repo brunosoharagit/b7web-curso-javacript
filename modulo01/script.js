@@ -41,16 +41,16 @@ if ((hora > 6) && (hora < 12)) {
 else if ((hora >= 12) && (hora < 18)){
     alert("Boa tarde!");
 }
-else {
+else { ((hora >= 18) && (hora <= 5))
     alert("Boa noite!");
 }*/
 
-const marcaCarro = 'Ferrari';
+var marcaCarro = 'Ferrari';
 //let marcaCarro = 'Ferrari';
 //const marcaCarro = 'Ferrari';
 
 if (marcaCarro === 'Ferrari'){
-    const marcaCarro = 'Chevrolet';
+    var marcaCarro = 'Chevrolet';
     console.log('Dentro do IF: ' + marcaCarro);
 }
 
