@@ -38,7 +38,7 @@ var hora = 20;
 if ((hora > 0) && (hora < 12)) {
     alert("Bom dia!");
 }
-else if ((hora >= 12) && (hora < 17)){
+else if ((hora >= 12) && (hora < 18)){
     alert("Boa tarde!");
 }
 else {
