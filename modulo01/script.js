@@ -1,16 +1,16 @@
 
-alert("Olá mundo!!");
+/*alert("Olá mundo!!");
 
-//tipos de variáveis
-//a. var
+tipos de variáveis
+a. var
 var nome = "Bruno";
 var nome = "Ulisses";
 
-//b. let
-//let nome = "Bruno";
+b. let
+let nome = "Bruno";
 
-//c. const
-//const nome = "Bruno";
+c. const
+const nome = "Bruno";
 
 if (nome == "Bruno"){
     var idade = 90;
@@ -20,18 +20,18 @@ console.log(idade);
 
 
 
-//alert("Olá mundo!!");
+alert("Olá mundo!!");
 
-//var inteiro = 10;
+var inteiro = 10;
 
-//var nome = 'Bruno';
-//var sobrenome = 'Sohara';
+var nome = 'Bruno';
+var sobrenome = 'Sohara';
 
-//var nomeesobrenome = nome + ' ' + sobrenome;
-//console.log(nomeesobrenome);
+var nomeesobrenome = nome + ' ' + sobrenome;
+console.log(nomeesobrenome);
 
-//console.log(inteiro);
-//alert(inteiro)
+console.log(inteiro);
+alert(inteiro)
 
 var hora = 20;
 
@@ -43,5 +43,17 @@ else if ((hora >= 12) && (hora < 17)){
 }
 else {
     alert("Boa noite!");
+}*/
+
+const marcaCarro = 'Ferrari';
+//let marcaCarro = 'Ferrari';
+//const marcaCarro = 'Ferrari';
+
+if (marcaCarro === 'Ferrari'){
+    const marcaCarro = 'Chevrolet';
+    console.log('Dentro do IF: ' + marcaCarro);
 }
+
+console.log('Fora do IF: ' + marcaCarro);
+
 
