@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 alert("Olá mundo!!");
 
 //tipos de variáveis
@@ -20,8 +20,6 @@ console.log(idade);
 
 
 
-
-=======
 //alert("Olá mundo!!");
 
 //var inteiro = 10;
@@ -46,4 +44,4 @@ else if ((hora >= 12) && (hora < 17)){
 else {
     alert("Boa noite!");
 }
->>>>>>> 1adeaed02db05c74d99a8e10dd4f221c6f8f43cc
+
