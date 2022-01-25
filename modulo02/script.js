@@ -5,3 +5,14 @@ DOM = Document Object Manipulation
 
 */
 document.getElementById('#exemplo').innerHTML = "Rodrigo";
+
+
+var nome = "Bruno";
+
+console.log(window.nome);
+
+if ( nome  == "Bruno" ){
+    var idade = 90;
+}
+
+console.log(idade);
