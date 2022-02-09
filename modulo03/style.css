@@ -1,20 +1,23 @@
 * {
     font-family: Arial, sans-serif;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
-
-header {
-    justify-content: center;
-    background-color: aquamarine;
-    height: 100px;
-}
-
 .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+}
+
+
+/* #region HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to left, #3e5f59, #356068, #123456);
+    height: 100px;
 }
 
 .logo {
@@ -32,3 +35,13 @@ header {
     padding: 10px 20px;
     font-size: 15px;
 }
+.menu ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu ul li a:hover {
+    background-color: #aeaeae;
+    color: #555;
+    transition: 500ms;
+}
+/* #endregion */
