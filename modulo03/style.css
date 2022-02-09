@@ -1,6 +1,11 @@
+:root {
+    --default-font-color: #454545;
+    --default-title-color: #cdcdcd;
+}
+
 * {
     font-family: Arial, sans-serif;
-    color: #fff;
+    color: var(--default-font-color);
     margin: 0;
     padding: 0;
 }
@@ -43,5 +48,24 @@ header {
     background-color: #aeaeae;
     color: #555;
     transition: 500ms;
+}
+/* #endregion */
+
+
+/* #region MAIN */
+section .main {
+    justify-content: flex-start;
+}
+
+.texts {
+    padding: 40px;
+}
+
+.text-1 h3 {
+    font-size: 135px;
+}
+
+.text-2 h5 {
+    font-size: 75px;
 }
 /* #endregion */
